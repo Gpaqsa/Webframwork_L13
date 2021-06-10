@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home page</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: lightgrey;
+            }
+            nav {
+                width: 100%;
+                height: 50px;
+                background-color: #fff;
+            }
+            ul li {
+                list-style: none;
+                display: inline-block;
+                line-height: 50px;
+
+            }
+            ul li a {
+                margin: 5px;
+                padding: 2px;
+                display: block;
+                text-decoration: none;
+                font-size: 20px;
+                font-family: #1e1e1e;
+                padding-left: 0 20px;
+            }
+            h1  {
+            padding: 20px;
+        }
+        </style>
+
+    </head>
+    <body>
+        <header>
+        <nav>
+            <ul>
+                <li><a href="{{url_for('home')}}">Home</a></li>
+                <li><a href="{{url_for('about')}}">about</a></li>
+                <li><a href="{{url_for('staff')}}">Staff</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <div align="center">
+                <h1>ლექსები</h1>
+                </div>
+                <h3>მე და ღამე</h3>
+                <br/>
+                <p>ახლა, როცა ამ სტრიქონს ვწერ, შუაღამე იწვის, დნება,
+              სიო, სარკმლით მონაქროლი, ველთა ზღაპარს მეუბნება
+              მთვარით ნაფენს არე-მარე ვერ იცილებს ვერცხლის საბანს.
+              სიო არხევს და ატოკებს ჩემს სარკმლის წინ იასამანს.
+              <br/><br/>
+              ცა მტრედისფერ, ლურჯ სვეტებით ისე არის დასერილი,
+              ისე არის სავსე გრძნებით, ვით რითმებით ეს წერილი.
+              საიდუმლო შუქით არე, ისე არის შესუდრული,
+              ისე სავსე უხვ გრძნობებით, ვით ამ ღამეს ჩემი გული.
+              <br/><br/>
+              დიდი ხნიდან საიდუმლოს მეც ღრმად გულში დავატარებ,
+              არ ვუმჟღავნებ ქვეყნად არვის, ნიავსაც კი არ ვაკარებ.
+              რა იციან მეგობრებმა, თუ რა ნაღველს იტევს გული,
+              ან რა არის მის სიღრმეში საუკუნოდ შენახული.
+              <br/><br/>
+              ვერ მომპარავს ბნელ გულის ფიქრს წუთი წუთზე უამესი,
+              საიდუმლოს ვერ მომტაცებს ქალის ხვევნა და ალერსი;
+              ვერც ძილის დროს ნელი ოხვრა, და ვერც თასი ღვინით სავსე,
+              ვერ წამართმევს მას, რაც გულის ბნელ სიღრმეში მოვათავსე.
+              <br/><br/>
+              მხოლოდ ღამემ, უძილობის დროს სარკმელში მოკამკამემ,
+              იცის ჩემი საიდუმლო, ყველა იცის თეთრმა ღამემ.
+              იცის - როგორ დავრჩი ობლად, როგორ ვევნე და ვეწამე,
+              ჩვენ ორნი ვართ ქვეყანაზე: მე და ღამე, მე და ღამე!</p>
+                <br/><br/>
+        </main>
+        
+    </body>
+</html>
